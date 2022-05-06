@@ -1,0 +1,17 @@
+Node node1 = "firstNode";
+Node node2 = "secondNode";
+Arc arc12 = "12";
+Graph eGraph;
+addNode(eGraph,node1);
+addNode(eGraph,node2);
+addArc(eGraph,node1,node2,arc12);
+For(eGraph, node)
+	{
+		Node node3 = "thirdNode";
+		Node node4 = "fourthNode";
+	    addNode(eGraph,node3);
+		addNode(eGraph,node4);
+		Arc arc34 = "12";
+		addArc(graph,node3,node4,arc34);
+	}
+print(eGraph);
